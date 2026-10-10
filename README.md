@@ -6,6 +6,10 @@ An AI-assisted experience that helps you interpret visual symbols and turn them 
 
 Version **1.2.2** · Mobile interactive prototype · English interface
 
+**[Try the live demo](https://zhangqingni0214-lang.github.io/Beyond-the-Cards/)** · **[Watch the demo video](https://zhangqingni0214-lang.github.io/Beyond-the-Cards/demo/Beyond-the-Cards-Demo.mp4)**
+
+The public demo is hosted on GitHub Pages and redeploys automatically when `main` is updated. The demo video includes English narration and captions; the [transcript](docs/demo/DEMO-SCRIPT.md) and [subtitle file](docs/demo/Beyond-the-Cards-Demo.en.srt) are also available.
+
 ## What is Beyond the Cards
 
 Beyond the Cards builds on an existing tarot curriculum and learning structure to connect visual exploration, personal reflection, and storytelling. Users explore symbols, develop their own interpretations, and turn their ideas into creative works they can edit, save, and share.
