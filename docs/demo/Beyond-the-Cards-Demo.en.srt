@@ -1,0 +1,209 @@
+1
+00:00:00,000 --> 00:00:04,366
+Beyond the Cards is an interactive tarot learning and storytelling experience.
+From the
+
+2
+00:00:04,366 --> 00:00:08,731
+art of the cards to the story of you. Instead of simply receiving
+
+3
+00:00:08,731 --> 00:00:13,097
+an answer, you explore visual symbols, connect them to your own experience,
+and
+
+4
+00:00:13,097 --> 00:00:15,448
+shape a narrative that belongs to you.
+
+5
+00:00:16,905 --> 00:00:22,278
+For beginners, tarot can feel like a long list of meanings to memorize.
+
+6
+00:00:22,278 --> 00:00:27,652
+The harder task is connecting imagery, card positions, different perspectives,
+and a real
+
+7
+00:00:27,652 --> 00:00:33,026
+personal question. Our experience makes those connections visible, turning
+learning into a process
+
+8
+00:00:33,026 --> 00:00:35,092
+of observation and creative expression.
+
+9
+00:00:36,548 --> 00:00:40,645
+Start by drawing a card in the same visual space. Here, the draw
+
+10
+00:00:40,645 --> 00:00:44,741
+reveals Death. We treat the image as a prompt for change and transition,
+
+11
+00:00:44,741 --> 00:00:48,838
+not a prediction of harm. The card stays visible as we explore its
+
+12
+00:00:48,838 --> 00:00:51,674
+scene and consider what its imagery brings to mind.
+
+13
+00:00:53,135 --> 00:00:58,238
+Selected cards also offer interactive symbol hotspots. In the library, we can
+open
+
+14
+00:00:58,238 --> 00:01:03,341
+the Fool and explore the small dog, the white rose, or the cliff.
+
+15
+00:01:03,341 --> 00:01:08,444
+Each point connects a visible detail with a teaching perspective. Other cards
+provide
+
+16
+00:01:08,444 --> 00:01:11,191
+scene exploration without inventing precise symbol hotspots.
+
+17
+00:01:12,659 --> 00:01:17,077
+Back with our drawn card, the reversed option adds another perspective on the
+
+18
+00:01:17,077 --> 00:01:21,496
+same image. We do not redraw or lose the original card. Here, an
+
+19
+00:01:21,496 --> 00:01:25,915
+ending can also suggest reluctance to move on. These are possibilities to
+reflect
+
+20
+00:01:25,915 --> 00:01:28,294
+on, and the user chooses what fits.
+
+21
+00:01:29,762 --> 00:01:34,272
+Now we record what we notice and what it reminds us of. A
+
+22
+00:01:34,272 --> 00:01:38,782
+rider moving forward becomes an association with leaving a familiar role.
+These are
+
+23
+00:01:38,782 --> 00:01:43,292
+user-written contributions, kept distinct from the teaching text. Personal
+meaning grows from the
+
+24
+00:01:43,292 --> 00:01:46,761
+relationship between the picture and the person looking at it.
+
+25
+00:01:48,214 --> 00:01:52,783
+Next, we add a situation: I want to leave a familiar job and
+
+26
+00:01:52,783 --> 00:01:57,351
+start a creative project, but I am afraid to let go. We select
+
+27
+00:01:57,351 --> 00:02:01,921
+uncertain as the feeling. Connecting this context produces a reflection draft
+that brings
+
+28
+00:02:01,921 --> 00:02:05,435
+together the card, the chosen perspective, and our own words.
+
+29
+00:02:06,865 --> 00:02:11,693
+The reflection opens into a creative workspace. We can choose a personal
+story,
+
+30
+00:02:11,693 --> 00:02:16,522
+a storyboard, a journal, a poem, a character story, or a Tarot Story
+
+31
+00:02:16,522 --> 00:02:21,350
+Card. The current templates provide a starting structure, so the user can move
+
+32
+00:02:21,350 --> 00:02:24,321
+from interpreting an image to expressing an idea.
+
+33
+00:02:25,754 --> 00:02:30,196
+We edit the title to Making Space for a New Chapter and rewrite
+
+34
+00:02:30,196 --> 00:02:34,638
+the draft in our own voice. This passage is a user edit, not
+
+35
+00:02:34,638 --> 00:02:39,080
+model-generated text. We save the work, and the studio also offers text
+copying
+
+36
+00:02:39,080 --> 00:02:43,180
+and SVG story-card export. The result is a piece of personal expression.
+
+37
+00:02:44,643 --> 00:02:49,795
+The same learning approach also supports three cards: what I bring, what I
+
+38
+00:02:49,795 --> 00:02:54,948
+am in, and what I can explore. Together, the positions offer a narrative
+
+39
+00:02:54,948 --> 00:03:00,100
+structure. The searchable library contains all seventy-eight cards, so
+learners can return to
+
+40
+00:03:00,100 --> 00:03:03,271
+specific imagery and continue building their visual vocabulary.
+
+41
+00:03:04,722 --> 00:03:10,250
+This version uses local rules and narrative templates. A live AI model is
+
+42
+00:03:10,250 --> 00:03:15,780
+not connected yet, and the interface states that clearly. The planned
+architecture combines
+
+43
+00:03:15,780 --> 00:03:21,309
+tarot knowledge retrieval, visual evidence, user context, and structured model
+suggestions. The user
+
+44
+00:03:21,309 --> 00:03:25,561
+will remain able to choose, question, and edit every interpretation.
+
+45
+00:03:27,024 --> 00:03:32,963
+Our pre-existing work includes the tarot curriculum, card library, journal,
+and learning structure.
+
+46
+00:03:32,963 --> 00:03:38,902
+During ForgeHacks, we built the interpretation coach interaction prototype,
+narrative workflow, personalized reflection
+
+47
+00:03:38,902 --> 00:03:44,841
+system, and creative interaction journey. Explore the public demo on GitHub
+Pages, and
+
+48
+00:03:44,841 --> 00:03:49,410
+turn a visual symbol into a story of your own.
