@@ -14,9 +14,9 @@ An AI-assisted experience that helps you interpret visual symbols and turn them 
 
 ## Inspiration
 
-Tarot cards are a rich visual language, yet beginners often start by memorizing isolated meanings. The harder task is connecting visual symbols, spread positions, upright and reversed perspectives, relationships between cards, and a personal question.
+Tarot cards are a rich visual language: figures, gestures, objects, and their relationships can inspire reflection and storytelling. Yet beginners often learn by memorizing isolated meanings, with little guidance on connecting imagery, spread positions, upright and reversed perspectives, and a personal question.
 
-We want AI assistance to make learning a process of observation, interpretation, and creation: starting with the art of the cards and moving toward the user's own story.
+We designed Beyond the Cards to turn that gap into a creative journey. Our vision for AI assistance is to help people explore possible connections while keeping their own observations and words at the center.
 
 ## What it does
 
@@ -32,13 +32,15 @@ The searchable English library contains all **78 cards**. Interpretations suppor
 
 ## How we built it
 
-**Built with:** HTML5 · CSS3 · JavaScript · SVG · localStorage · GitHub Pages · GitHub Actions
+### Tech Stack
+
+HTML5 · CSS3 · JavaScript · SVG · localStorage · GitHub Pages · GitHub Actions
 
 The frontend uses a mobile layout and vanilla JavaScript, with local card data and images. The static application requires no build step. Browser localStorage preserves drafts and saved works, while SVG supports story-card export. GitHub Pages hosts the public experience; GitHub Actions automatically redeploys the `dist` directory when `main` is updated.
 
 ### AI Architecture
 
-The current implementation demonstrates the interaction journey without external model calls or API keys:
+The prototype combines card knowledge and user input through a local interpretation and creation pipeline:
 
 ```text
 Card knowledge + Spread positions + Upright/reversed perspectives + User input
@@ -56,7 +58,7 @@ The planned integration will use a server-side AI endpoint and tarot knowledge r
 | **Pre-existing work** | Tarot curriculum, card library, journal and learning structure. |
 | **Built during ForgeHacks** | AI Interpretation Coach interaction prototype, AI narrative reasoning workflow prototype, personalized reflection system, and AI interaction workflow. |
 
-The ForgeHacks implementation connects visual exploration, same-card perspective comparison, personal context, and creative editing and saving. AI interpretation and narrative reasoning are currently demonstrated through local rules and templates; live model integration remains future work.
+The ForgeHacks work focused on connecting exploration, personal context, and creative output into one interaction journey. The AI-related components are workflow prototypes, not a deployed live-model service.
 
 ## Challenges we ran into
 
@@ -66,17 +68,19 @@ We also needed to distinguish visual observations, teaching interpretations, and
 
 ## Accomplishments that we're proud of
 
-We completed a journey from visual exploration to editing, saving, and exporting creative work, with a complete English card library, single-card and three-card exploration, and same-card upright and reversed comparison.
+- Built a complete exploration-to-expression journey with editable outputs, local saving, and SVG export.
+- Delivered all 78 cards in English, single-card and three-card experiences, and same-card upright and reversed comparison.
+- Published a working mobile prototype, public repository, and English narrated demo with captions.
 
-The project now has a public repository, a GitHub Pages demo, and an English narrated demo video. What we value most is that users' observations and words are central to the creative process: the cards offer inspiration, and users write the story.
+Our proudest design decision is giving users ownership of the final expression: the cards offer inspiration, and users write the story.
 
 ## What we learned
 
-Tarot learning is about more than remembering meanings: it involves understanding how visual clues connect. Inviting users to observe first and then compare interpretations supports active learning.
+Building the prototype taught us to separate three layers: what is visible, what a teaching perspective suggests, and what the user personally associates with it. That distinction gives the learning journey a clearer structure.
 
-Creative experiences also need room for editing and disagreement, so users retain control of their expression. Clear knowledge structures, continuous interaction, and editable outputs are important foundations to establish before integrating a live AI model.
+We also learned to treat editing and disagreement as core interactions. Continuous visual context, clear knowledge structures, and user-controlled outputs are foundations for future AI integration. Our next step is to validate these design choices with learners.
 
-## What's next
+## What's next for Beyond the Cards
 
 - **Grounded AI interpretation:** Integrate a live model and tarot knowledge retrieval, connect interpretations to visual evidence, and evaluate relevance and narrative quality.
 - **Learning support:** Expand symbol hotspots and feedback to help users develop independent interpretation skills.
